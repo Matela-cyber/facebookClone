@@ -12,7 +12,7 @@ import Icon from "react-native-vector-icons/FontAwesome";
 
 const Homepage = () => {
   const [liked, setLiked] = useState(false);
-  const [likes, setLikes] = useState(3); // Initial number of likes
+  const [likes, setLikes] = useState(3);
   const [liked1, setLiked1] = useState(false);
   const [likes1, setLikes1] = useState(11);
 
@@ -160,16 +160,13 @@ const Homepage = () => {
               </Text>
               <View style={styles.buttonContainer}>
                 <TouchableOpacity
-                  style={[
-                    styles.button,
-                    liked ? styles.buttonLiked : null, // Apply different style if liked
-                  ]}
+                  style={[styles.button, liked ? styles.buttonLiked : null]}
                   onPress={handleLike}
                 >
                   <Icon
                     name="thumbs-up"
                     size={20}
-                    color={liked ? "blue" : "rgb(170,170,170)"} // Change color if liked
+                    color={liked ? "blue" : "rgb(170,170,170)"}
                   />
                   <Text style={styles.buttonText}>{likes}</Text>
                 </TouchableOpacity>
