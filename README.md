@@ -45,7 +45,7 @@ A React Native Mobile application that emulates core features of Facebook, inclu
 4. **Run on Device/Simulator**:
    - Use the Expo Go app on your mobile device or an emulator to view the application.
 ## Appearance Comparison to the real app
- <img src="gfacebook.jpg" alt="App screen shot" width="80" height="150">
+ <img src="gfacebook.jpg" alt="App screen shot" width="260" >
 
 ## Usage
 
