@@ -1,6 +1,6 @@
 # Facebook Clone
 
-A React Native application that emulates core features of Facebook, including user authentication and homepage feed.
+A React Native Mobile application that emulates core features of Facebook, including user authentication and homepage feed.
 
 ## Table of Contents
 
